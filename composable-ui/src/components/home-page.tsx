@@ -1,18 +1,18 @@
-import { NextSeo } from 'next-seo'
-import { api } from 'utils/api'
 import { Box, Container } from '@chakra-ui/react'
+import { PageItem } from '@composable/types'
+import { UiContainer } from '@composable/ui/src/components/ui-container'
+import { useOnScreen } from 'hooks'
+import { NextSeo } from 'next-seo'
+import { useEffect, useState } from 'react'
+import { api } from 'utils/api'
+import { LAZY_LOAD_BATCH_SIZE } from 'utils/constants'
 import {
   BannerFull,
   BannerSplit,
   BannerTextOnly,
-  Grid,
   CommerceConnector,
+  Grid,
 } from './cms'
-import { UiContainer } from '@composable/ui/src/components/ui-container'
-import { PageItem } from '@composable/types'
-import { useOnScreen } from 'hooks'
-import React, { useState, useEffect } from 'react'
-import { LAZY_LOAD_BATCH_SIZE } from 'utils/constants'
 
 const renderItem = (item: PageItem) => {
   switch (item?.__typename) {
@@ -75,6 +75,7 @@ export const HomePage = () => {
           <div ref={loaderRef}></div>
         )}
       </Container>
+      Beppe !!!!!!!!!
     </Box>
   )
 }
