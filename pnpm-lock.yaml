@@ -14,9 +14,6 @@ importers:
       '@cloudinary/url-gen':
         specifier: ^1.19.0
         version: 1.19.0
-      next-videos:
-        specifier: ^1.4.1
-        version: 1.4.1(webpack@4.46.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.0.0
@@ -114,6 +111,9 @@ importers:
       next-sitemap:
         specifier: ^3.1.52
         version: 3.1.55(@next/env@13.3.1)(next@13.3.1)
+      next-videos:
+        specifier: ^1.4.1
+        version: 1.4.1(webpack@4.46.0)
       react:
         specifier: ^18.2.0
         version: 18.2.0

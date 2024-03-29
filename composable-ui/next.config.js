@@ -1,6 +1,19 @@
+/** @type {import('next').NextConfig} */
+/*const nextConfig = {};
+
+module.exports = nextConfig;
+
+const withVideos = require('next-videos')
+
+module.exports = withVideos();*/
+
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
+
+//MESSE DA ME !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+const withVideos = require('next-videos')
+module.exports = withVideos()
 
 const NO_INDEX_FOLLOW_PATHS = ['/cart', '/checkout', '/checkout/success']
 

@@ -33,7 +33,6 @@
   },
   "dependencies": {
     "@cloudinary/react": "^1.13.0",
-    "@cloudinary/url-gen": "^1.19.0",
-    "next-videos": "^1.4.1"
+    "@cloudinary/url-gen": "^1.19.0"
   }
 }
