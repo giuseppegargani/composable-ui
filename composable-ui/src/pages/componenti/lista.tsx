@@ -14,6 +14,8 @@
 
     Devono essere divisi per categorie e si deve indicare il codice, tutorial e come modificare lo stile!!!!!!!!!!!!!!!!
 
+    - SI DEVONO ANCHE METTERE I PRINCIPI GENERALI, FOGLI DI STILE FIGMA
+
 */
 
 export default function Lista() {
@@ -29,7 +31,7 @@ export default function Lista() {
       </p>
       <p>Si possono anche mettere playgrounds</p>
       <p>DOVREBBE ESSERE DIVISO PER CATEGORIE</p>
-      <p>Forse si puo' fare anche testing!!!</p>
+      <p>Forse si può fare anche testing!!!</p>
       <div>
         <h2>Video Header</h2>
       </div>
